@@ -5,6 +5,7 @@ TRAIN_BATCH_SIZE = 8
 VALID_BATCH_SIZE = 4
 EPOCHS = 1
 NUM_WORKERS = 4
+DEVICE = "cpu"
 BERT_PATH = "../input/bert_base_uncased/"
 MODEL_PATH = "model.bin"
 TRAINING_FILE = "../input/imdb.csv"
